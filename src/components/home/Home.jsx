@@ -11,10 +11,20 @@ class Home extends Component {
   }
   componentDidMount() { }
   componentWillReceiveProps(nextProps) { }
+  renderItems = () => {
+
+  }
+
   render() {
     return (
       // <MainLayout>
-      <div>Home</div>
+      <div>Home
+        <div className="banner">banner</div>
+        <div className="itemWrapper">
+          {this.renderItems()}
+        </div>
+
+      </div>
       // </MainLayout>
     );
   }

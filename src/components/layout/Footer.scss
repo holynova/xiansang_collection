@@ -1,1 +1,9 @@
-.Footer {}
+@import '../../styles/values.scss';
+.Footer {
+  background-color: #fff;
+  height: $base_height;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
