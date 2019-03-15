@@ -13,9 +13,9 @@ class Home extends Component {
   componentWillReceiveProps(nextProps) { }
   render() {
     return (
-      <MainLayout>
-        <div>Home</div>
-      </MainLayout>
+      // <MainLayout>
+      <div>Home</div>
+      // </MainLayout>
     );
   }
 }

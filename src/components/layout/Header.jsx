@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import propTypes from 'prop-types';
 // import { } from 'antd';
-// import './Header.scss';
+import './Header.scss';
 
 class Header extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class Header extends Component {
   componentWillReceiveProps(nextProps) { }
   render() {
     return (
-      <div>Header</div>
+      <div className='Header' >Header</div>
     );
   }
 }

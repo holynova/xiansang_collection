@@ -3,7 +3,7 @@ import propTypes from 'prop-types';
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 // import { } from 'antd';
-// import './MainLayout.scss';
+import './MainLayout.scss';
 
 class MainLayout extends Component {
   constructor(props) {

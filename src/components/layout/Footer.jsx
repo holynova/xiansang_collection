@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import propTypes from 'prop-types';
 // import { } from 'antd';
-// import './Footer.scss';
+import './Footer.scss';
 
 class Footer extends Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class Footer extends Component {
   componentWillReceiveProps(nextProps) { }
   render() {
     return (
-      <div>Footer</div>
+      <div className='Footer' >Footer</div>
     );
   }
 }
