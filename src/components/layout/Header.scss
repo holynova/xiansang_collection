@@ -1,0 +1,7 @@
+@import '../../styles/values.scss';
+.Header {
+  width: 100%;
+  height: $base_height;
+  background-color: #fff;
+  position: fixed;
+}
